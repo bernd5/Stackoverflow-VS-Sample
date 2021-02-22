@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31004.235
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "A", "A\A.vcxitems", "{1B1C26CE-B61F-44D0-9A73-2701963BB605}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "B", "B\B.vcxitems", "{1BE3870B-DD2E-4BC8-BC50-603D824C1C9A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C", "C\C.vcxitems", "{C8CBE1F9-7513-41CB-A5E0-0E1D07BB52FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{5AF9782D-6EB1-4E66-BEB7-3F72A8EA51F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApp-Windows", "ConsoleApp-Windows\ConsoleApp-Windows.vcxproj", "{A1E17910-D20A-46B7-B939-DB2464A24D58}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		A\A.vcxitems*{1b1c26ce-b61f-44d0-9a73-2701963bb605}*SharedItemsImports = 9
+		B\B.vcxitems*{1be3870b-dd2e-4bc8-bc50-603d824c1c9a}*SharedItemsImports = 9
+		A\A.vcxitems*{a1e17910-d20a-46b7-b939-db2464a24d58}*SharedItemsImports = 4
+		B\B.vcxitems*{a1e17910-d20a-46b7-b939-db2464a24d58}*SharedItemsImports = 4
+		C\C.vcxitems*{a1e17910-d20a-46b7-b939-db2464a24d58}*SharedItemsImports = 4
+		C\C.vcxitems*{c8cbe1f9-7513-41cb-a5e0-0e1d07bb52fb}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1E17910-D20A-46B7-B939-DB2464A24D58}.Debug|x64.ActiveCfg = Debug|x64
+		{A1E17910-D20A-46B7-B939-DB2464A24D58}.Debug|x64.Build.0 = Debug|x64
+		{A1E17910-D20A-46B7-B939-DB2464A24D58}.Debug|x86.ActiveCfg = Debug|Win32
+		{A1E17910-D20A-46B7-B939-DB2464A24D58}.Debug|x86.Build.0 = Debug|Win32
+		{A1E17910-D20A-46B7-B939-DB2464A24D58}.Release|x64.ActiveCfg = Release|x64
+		{A1E17910-D20A-46B7-B939-DB2464A24D58}.Release|x64.Build.0 = Release|x64
+		{A1E17910-D20A-46B7-B939-DB2464A24D58}.Release|x86.ActiveCfg = Release|Win32
+		{A1E17910-D20A-46B7-B939-DB2464A24D58}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1E17910-D20A-46B7-B939-DB2464A24D58} = {5AF9782D-6EB1-4E66-BEB7-3F72A8EA51F8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {814F9DBC-3CDA-4E30-8206-B0C7391A16B1}
+	EndGlobalSection
+EndGlobal
